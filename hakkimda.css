@@ -1,0 +1,268 @@
+.navbar-nav a {
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white;
+    border-block-end: solid black;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+    .nav-link.active, .nav-link:focus {
+        color: #fff;
+    }
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.imgContainer{
+    /* background-color: red; */
+    /* color: ; */
+    /* height: 80%; */
+    /* width: 80%; */
+    /* position: relative; */
+    text-align: center;
+    width: 750px;
+    height: 500px;
+    margin: auto;
+    /* justify-content: center; */
+}
+#pic
+{
+    /* position: absolute;
+    justify-content: center; */
+    /* display: block;
+    text-align: center; */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+.btn
+{
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-nav a {
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
+
+.line2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.my-photo {
+    text-align: center;
+    width: 100%;
+}
+
+.img-photo {
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.my-photo h3 {
+    font-family: montserrat;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.my-photo p {
+    font-size: larger;
+}
+
+.Türkiye {
+    text-decoration: none;
+    color: black;
+}
+
+.Türkiye:hover {
+    color: black;
+}
+
+.flag , .logo {
+    height: 20px;
+    width: 20px;
+}
+
+.header {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 35px;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.university-h1 {
+    text-align: center;
+    font-family: var(--font);
+    margin-top: 40px;
+}
+
+.university-container {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.university-img {
+    position: absolute;
+    width: 150px;
+    height: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.university-info {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.faculty {
+    margin-top: 20px;
+}
+
+.ilgi {
+    text-align: center;
+    width: 100%;
+}
+
+/***************************************/
+footer {
+    width: 100%;
+    height: 200px;
+}
+/*Big footer*/
+.b-footer {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(58, 54, 54);
+    opacity: 0.5;
+}
+
+.links {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.b-footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    padding: 25px;
+
+}
+
+    .fab:hover {
+        color: white;
+    }
+
+.fa:hover {
+    color: blue;
+}
+
+.ig:hover {
+    color: purple;
+}
+
+.you:hover {
+    color: red;
+}
+
+.fa {
+    padding-left: 0;
+}
+
+
+/*Big footer*/
+
+
+/*small footer*/
+
+.s-footer {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    opacity: 1;
+    color: white;
+    position: relative;
+}
+
+    .s-footer div {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+    }
+
+/*/small footer*/
